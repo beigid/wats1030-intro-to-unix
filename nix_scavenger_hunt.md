@@ -340,15 +340,37 @@ credit_card.txt Last updated: 01-15-2015
 * Use the `grep` command to search for text within a file. Use `grep` on all the `.user` files in `challenge_files` to find which files contain "WA" (the abbreviation for Washington state). *How many files did you find?*
 
 ```
-
+Britt-Erdman.user:O'Harachester, WA 37261
+Lissie-Strosin.user:Jewessfurt, WA 00816-7241
 ```
 
 * Use the `-r` option of `grep` to *recursively* find the text "Waldo" hidden in a file somewhere under the `challenge_files` directory. *Paste the result showing the file and line where the word "Waldo" shows up.*
+
+```
+serial-numbers/eaque_molestiae.txt:Ut est maiores quia autem. Nisi modi Waldo sed corporis sit explicabo ut est. Et est placeat ea sunt sunt consectetur sunt incidunt. Explicabo vel esse blanditiis dolorem culpa non quia.
+
+```
 
 ### Pipes and Connecting Commands
 
 * Sometimes it's useful to output the results of a command to a text file for further analysis, reference, or processing. Try running `ls > files.txt`. Notice that the file `files.txt` was created. View that file using `more`. *What do you see in the `files.txt` file?*
 
+```
+
+```
+
 * Notice that if you run `ls -alh` in the `challenge_files` directory, the files scroll by very quickly. Sometimes it would be better to get the results in a paginated format. Try running `ls -alh | more`. *Describe what you see when you run `ls -alh | more`.*
 
+
+
 * Earlier, when you viewed the list of active processes on your devbox using `ps aux`, the list was probably really long. You can make this list more manageable by using the pipe (`|`) to filter the results of `ps` using `grep`. Run `ps aux | grep <your_username>` to see what processes are running for your specific user. *Paste the list of processes that reference your username here:*
+```
+root       524  0.0  0.6  63876  3328 ?        Ss   17:25   0:00 sshd: cabox [priv]
+cabox      526  0.0  0.2  64008  1508 ?        S    17:25   0:00 sshd: cabox@notty
+cabox      527  0.0  0.1  12860  1016 ?        Ss   17:25   0:00 /usr/lib/openssh/sftp-server
+root       528  0.0  0.6  63876  3480 ?        Ss   17:28   0:00 sshd: cabox [priv]
+cabox      530  0.0  0.2  63876  1464 ?        S    17:28   0:00 sshd: cabox@pts/0
+cabox      531  0.0  0.8  20564  4484 pts/0    Ss   17:28   0:00 -bash
+cabox      742  0.0  0.2  15520  1140 pts/0    R+   17:46   0:00 ps aux
+cabox      743  0.0  0.1   8816   764 pts/0    S+   17:46   0:00 grep --color=auto cabox
+```
