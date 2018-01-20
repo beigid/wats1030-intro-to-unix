@@ -356,12 +356,158 @@ serial-numbers/eaque_molestiae.txt:Ut est maiores quia autem. Nisi modi Waldo se
 * Sometimes it's useful to output the results of a command to a text file for further analysis, reference, or processing. Try running `ls > files.txt`. Notice that the file `files.txt` was created. View that file using `more`. *What do you see in the `files.txt` file?*
 
 ```
+01
+2015_special_stuff.demo
+Afton-Jast.user
+Aimee-Maggio.user
+Alfonso-Gottlieb.user
+Allen-Kemmer.user
+Almina-Cormier.user
+Alta-Lemke.user
+Amina-McGlynn.user
+Anabel-Hammes.user
+Ancel-Conn.user
+Anjali-Halvorson.user
+Ardath-Kuvalis.user
+Avah-Dickinson.user
+Ayaan-Stiedemann.user
+Aylin-Grant.user
+Bedford-Sipes.user
+Benita-King.user
+Benito-Stoltenberg.user
+Beverlee-Moen.user
+Brad-Thiel.user
+Brayan-Douglas.user
+Bria-Satterfield.user
+Bridgette-Reichel.user
+Britt-Erdman.user
+Britta-Hammes.user
+Bryant-Kuhic.user
+Bryton-Aufderhar.user
+Caitlin-Grady.user
+Carroll-Hartmann.user
+Claudie-McClure.user
+Clemente-Haley.user
+Cleo-VonRueden.user
+Codie-Romaguera.user
+Cooper-Reynolds.user
+Corrie-Bogisich.user
+Dannielle-Green.user
+Deedee-Jacobson.user
+Desiree-Marks.user
+Deven-Rutherford.user
+Doyle-Jones.user
+Dustyn-O'Connell.user
+Elza-Mraz.user
+Emory-Crona.user
+Erin-Walker.user
+Estela-Schultz.user
+Fernanda-Tromp.user
+Fletcher-Rice.user
+Fred-Ryan.user
+Genie-Abshire.user
+Grace-Tromp.user
+Grant-Cronin.user
+Hali-Roob.user
+Harland-Schoen.user
+Harrell-Quitzon.user
+Hillard-Ziemann.user
+Isadora-Leffler.user
+Jaxen-Gleichner.user
+Jayme-Rodriguez.user
+Jenni-O'Connell.user
+Johny-Borer.user
+Kassandra-Barrows.user
+Keely-Hilpert.user
+Kenyatta-Hickle.user
+Kiana-Kulas.user
+Kirstin-Hoppe.user
+Kwame-Schmitt.user
+Ladonna-Lueilwitz.user
+Lala-Will.user
+Leia-Hudson.user
+Leia-Ziemann.user
+Lillard-Purdy.user
+Lilly-Kohler.user
+Lissie-Strosin.user
+Mannie-Ritchie.user
+Masako-Lind.user
+Melisa-Yundt.user
+Michelina-Kuphal.user
+Minnie-Jacobi.user
+Murdock-Leffler.user
+Mychal-Corkery.user
+Nakita-Nader.user
+Nayely-Dare.user
+Nicholas-Strosin.user
+Niles-Runte.user
+Nina-Sporer.user
+Noreta-Steuber.user
+Ovid-Bogan.user
+Randell-Sauer.user
+Remy-Renner.user
+Ronna-Hermann.user
+Rosalind-Wisozk.user
+Rosena-Simonis.user
+Sandie-Balistreri.user
+Sharen-Hansen.user
+Sherrill-Russel.user
+Sherwin-Kovacek.user
+Sherwood-Rath.user
+Shyheim-Murazik.user
+Siobhan-Kirlin.user
+Tomas-Kutch.user
+cloaked-wookie.demo
+credit_cards.txt
+credit_cards2.txt
+files.txt
+scooter-double-mamba.demo
+serial-numbers
+test2
+tmp
+wow
 
 ```
 
 * Notice that if you run `ls -alh` in the `challenge_files` directory, the files scroll by very quickly. Sometimes it would be better to get the results in a paginated format. Try running `ls -alh | more`. *Describe what you see when you run `ls -alh | more`.*
 
-
+```
+total 460K
+drwxrwxr-x 7 cabox cabox 4.0K Jan 19 17:41 .
+drwxrwxr-x 4 cabox cabox 4.0K Jan 19 17:23 ..
+drwxrwxr-x 2 cabox cabox 4.0K Jan 19 17:13 01
+-rw-rw-r-- 1 cabox cabox    0 Jan 19 17:13 2015_special_stuff.demo
+-rw-rw-r-- 1 cabox cabox   93 Jan 19 17:13 Afton-Jast.user
+-rw-rw-r-- 1 cabox cabox   85 Jan 19 17:13 Aimee-Maggio.user
+-rw-rw-r-- 1 cabox cabox   79 Jan 19 17:13 Alfonso-Gottlieb.user
+-rw-rw-r-- 1 cabox cabox  100 Jan 19 17:13 Allen-Kemmer.user
+-rw-rw-r-- 1 cabox cabox   86 Jan 19 17:13 Almina-Cormier.user
+-rw-rw-r-- 1 cabox cabox   87 Jan 19 17:13 Alta-Lemke.user
+-rw-rw-r-- 1 cabox cabox   79 Jan 19 17:13 Amina-McGlynn.user
+-rw-rw-r-- 1 cabox cabox   78 Jan 19 17:13 Anabel-Hammes.user
+-rw-rw-r-- 1 cabox cabox   61 Jan 19 17:13 Ancel-Conn.user
+-rw-rw-r-- 1 cabox cabox   87 Jan 19 17:13 Anjali-Halvorson.user
+-rw-rw-r-- 1 cabox cabox   64 Jan 19 17:13 Ardath-Kuvalis.user
+-rw-rw-r-- 1 cabox cabox   90 Jan 19 17:13 Avah-Dickinson.user
+-rw-rw-r-- 1 cabox cabox   79 Jan 19 17:13 Ayaan-Stiedemann.user
+-rw-rw-r-- 1 cabox cabox   79 Jan 19 17:13 Aylin-Grant.user
+-rw-rw-r-- 1 cabox cabox   70 Jan 19 17:13 Bedford-Sipes.user
+-rw-rw-r-- 1 cabox cabox   82 Jan 19 17:13 Benita-King.user
+-rw-rw-r-- 1 cabox cabox   92 Jan 19 17:13 Benito-Stoltenberg.user
+-rw-rw-r-- 1 cabox cabox   83 Jan 19 17:13 Beverlee-Moen.user
+-rw-rw-r-- 1 cabox cabox   76 Jan 19 17:13 Brad-Thiel.user
+-rw-rw-r-- 1 cabox cabox   68 Jan 19 17:13 Brayan-Douglas.user
+-rw-rw-r-- 1 cabox cabox   80 Jan 19 17:13 Bria-Satterfield.user
+-rw-rw-r-- 1 cabox cabox   70 Jan 19 17:13 Bridgette-Reichel.user
+-rw-rw-r-- 1 cabox cabox   78 Jan 19 17:13 Britt-Erdman.user
+-rw-rw-r-- 1 cabox cabox   66 Jan 19 17:13 Britta-Hammes.user
+-rw-rw-r-- 1 cabox cabox   68 Jan 19 17:13 Bryant-Kuhic.user
+-rw-rw-r-- 1 cabox cabox   86 Jan 19 17:13 Bryton-Aufderhar.user
+-rw-rw-r-- 1 cabox cabox   82 Jan 19 17:13 Caitlin-Grady.user
+-rw-rw-r-- 1 cabox cabox   99 Jan 19 17:13 Carroll-Hartmann.user
+-rw-rw-r-- 1 cabox cabox   80 Jan 19 17:13 Claudie-McClure.user
+--More--
+```
 
 * Earlier, when you viewed the list of active processes on your devbox using `ps aux`, the list was probably really long. You can make this list more manageable by using the pipe (`|`) to filter the results of `ps` using `grep`. Run `ps aux | grep <your_username>` to see what processes are running for your specific user. *Paste the list of processes that reference your username here:*
 ```
